@@ -13,6 +13,6 @@ def print_first_directors_movie_titles
   count = 0
   while count < data[0][:movies].length do
     pp data[0][:movies][count][:title]
-    count += 0
+    count += 1
   end
 end
